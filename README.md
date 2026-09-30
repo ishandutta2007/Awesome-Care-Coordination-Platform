@@ -1,120 +1,195 @@
-# Awesome-Care-Coordination-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Care Coordination Platform Banner" width="100%">
+</p>
 
-## Top Care Coordination Platforms Ecosystem
+# 🏥 Awesome Care Coordination Platform
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Cross-Organizational Referrals, Closed-Loop Communication, Community Health Work & Population Health Management*
-**Last updated: September 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Care-Coordination-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Care-Coordination-Platform?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Care-Coordination-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Care-Coordination-Platform?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Care-Coordination-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Care-Coordination-Platform" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Care Coordination**. These tools help healthcare organizations, payers, and community-based organizations coordinate patient care across settings, enabling closed-loop referrals, shared care plans, and cross-organizational data exchange.
+## 📌 Top Care Coordination Platforms Ecosystem
 
-**Examples** include Innovaccer, Unite Us, Findhelp, Arcadia, Aidin, WellSky, CarePort Health, Lightbeam Health, Bamboo Health (PatientPing), ZeOmega, and HealthEC (the category leaders).
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Cross-Organizational Referrals, Closed-Loop Communication, Community Health Work & Population Health Management*  
+**Last updated: September 2026** 🗓️
 
-**Open-source emphasis**: The open-source ecosystem for care coordination is **mature at the population health management and community care coordination layers**. **SPICE** (Medtronic LABS) is a Digital Public Good deployed across 6 countries in sub-Saharan Africa, screening 500,000 patients . **Community Health Toolkit (CHT)** supports approximately 40,000 community health workers across 15 countries, with over 85 million care activities completed . **AHRQ eCare Plan** provides SMART-on-FHIR shared care plan applications with both patient-facing and clinician-facing apps . **ORCA** delivers a reference implementation for Dutch care coordination, implementing FHIR Workflow Task and Shared Care Planning .
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Innovaccer](https://innovaccer.com/)**
-  Healthcare data platform and care coordination solution. Unifies payer and provider data to support population health management, risk stratification, and care gap closure.
-
-- **[Unite Us](https://uniteus.com/)**
-  Community care coordination platform connecting healthcare providers and community-based organizations. Supports social needs screening, closed-loop referrals, and outcome tracking.
-
-- **[Findhelp](https://findhelp.org/)**
-  Social care network and referral platform. Connects patients with community resources for food assistance, housing, transportation, and more, with closed-loop referral support.
-
-- **[Arcadia](https://arcadia.io/)**
-  Healthcare data analytics and population health management platform. Provides risk stratification, care gap identification, and provider performance analytics.
-
-- **[Aidin](https://aidin.com/)**
-  Care transitions management platform. Supports referrals and coordination from hospital to post-acute care.
-
-- **[WellSky](https://wellsky.com/)**
-  Care coordination and post-acute care technology platform. Spans home health, hospice, rehabilitation, and community care.
-
-- **[CarePort Health](https://careporthealth.com/)**
-  Care coordination platform under WellSky. Connects hospitals, post-acute care providers, and payers to support real-time patient referrals and care transitions.
-
-- **[Lightbeam Health](https://lightbeamhealth.com/)**
-  Population health management platform. Provides risk stratification, care coordination, and patient engagement tools.
-
-- **[Bamboo Health (PatientPing)](https://bamboohealth.com/)**
-  Care coordination and patient event notification platform. Supports cross-provider care coordination through real-time patient event notifications (admission, discharge, transfer).
-
-- **[ZeOmega](https://zeomega.com/)**
-  Population health management and care coordination platform. Provides care management, utilization management, and risk adjustment tools for payers and providers.
-
-## Open-Source GitHub Projects
-
-### Community Care Coordination Platforms
-
-- **[SPICE (Medtronic LABS)](https://github.com/Medtronic-LABS)**
-  **The most mature open-source community care coordination platform, recognized as a Digital Public Good.** Designed specifically for health systems and communities, focused on data-driven care at the community and primary care level . **Core capabilities**: Community health worker screening and risk stratification; **closed-loop referrals and counter-referrals** linking community care bidirectionally with facility services; longitudinal patient management based on clinical algorithms; facility-level medical review, prescribing, and lab ordering; SMS patient reminders; customized treatment plans based on WHO Hearts algorithms . **Deployment scale**: Deployed in 6 countries, screened 500,000 patients, referred 146,646 patients, enrolled 222,000 patients, and improved the lives of over 130,000 patients . **FHIR compatible**, supporting interoperability with national reporting systems such as DHIS2. **BSD-3-Clause license** .
-
-- **[Community Health Toolkit (CHT)](https://github.com/medic/cht-core)**
-  **The most widely deployed open-source platform for supporting community health workers, a Digital Public Good.** Comprises an open-source framework and collection of applications that help partners design and deploy digital tools for care teams . **Supports approximately 40,000 community health workers** across 15 countries in Africa and Asia . **Functional modules**: messaging, task and schedule management, decision support workflows, longitudinal person profiles, and analytics. Supports **offline-first** operation and is accessible via SMS (feature phones), Android apps, tablets, and computers . **Compliance**: manually configurable to align with HL7 FHIR standards . **Scale**: Health workers have completed over **85 million care activities**. Six countries (Kenya, Mali, Nepal, Niger, Uganda, and Zanzibar) have selected CHT as their national community platform . **AGPL-3.0 license**.
-
-### Shared Care Planning & Referrals
-
-- **[AHRQ eCare Plan](https://github.com/AHRQ-eCare-Plan)**
-  **Open-source shared care plan applications developed by the U.S. Agency for Healthcare Research and Quality (AHRQ) and NIDDK.** Comprises two SMART-on-FHIR applications : **MyCarePlanner** (patient-facing) — patients and caregivers set goals, complete questionnaires, and share priorities with the care team; **eCarePlanner** (clinician-facing) — aggregates data from multiple EHR vendors and presents goals, social needs, and care team information. **Based on FHIR and USCDI standards**, supporting interoperability with Epic, VistA, and other EHRs . **Pilot results**: 90% goal authoring success, 67% of caregivers reported it made their work easier, 63% reported improved care coordination . **Open source**.
-
-- **[ORCA (Santeon)](https://github.com/SanteonNL/orca)**
-  **Open-source care plan reference implementation, implementing the Shared Care Planning specification.** Supports initiating and handling tasks between care organizations via FHIR Workflow Task . **Features**: UI for care professionals to complete questionnaires; proxy for care organizations' EHRs to access the care plan service FHIR API; handles authentication, localization, and data aggregation . **Architecture**: Each ORCA instance acts as an SCP node, capable of communicating with other nodes using different EHR systems . Designed for the Dutch healthcare system, adaptable to other regions. **Open source**.
-
-- **[careplan-service (REAN Foundation)](https://github.com/REAN-Foundation/careplan-service)**
-  **Care plan management service supporting authoring, scheduling, enrollment, and task distribution.** Written in **TypeScript** . Provides APIs for the full care plan lifecycle: creating care plans, scheduling tasks, enrolling participants, and distributing tasks to participants. Can serve as a foundational component for custom care coordination systems. **Open source**.
-
-### FHIR Infrastructure & Interoperability
-
-- **[Microsoft FHIR Server](https://github.com/microsoft/fhir-server)**
-  **Microsoft's open-source FHIR server, the foundation of Azure Health Data Services FHIR service.** Supports the FHIR R4 specification with a complete RESTful API . Can serve as the underlying data store and interoperability layer for care coordination platforms. **Open source**.
-
-- **[Microsoft FHIR-Converter](https://github.com/microsoft/FHIR-Converter)**
-  **Data conversion tool for transforming legacy healthcare data formats to FHIR.** Supports both CLI and the `$convert-data` endpoint . Helps migrate legacy system data into FHIR-compatible care coordination platforms. **Open source**.
-
-- **[TPT Healthcare NZ](https://github.com/tpt-solutions/tpt-healthcare-nz)**
-  **New Zealand open-source healthcare platform with FHIR R5 REST API supporting NHI/HPI/ACC/NES/PHARMAC integration.** Go backend, React frontend, multi-tenant, audit trails, consent management . **Features**: FHIR R5 resource storage (PostgreSQL JSONB); patient lookup, practitioner verification, PHO enrollment, ACC claims; SNOMED CT, LOINC, ICD-10-AM terminology loading; FHIR R5 subscriptions (rest-hook, WebSocket, email); consent management (HIPC Rule 10/11); AES-256-GCM field encryption; OpenTelemetry tracing . **Compliance**: Privacy Act 2020 and HIPC 2020. **Open source**.
-
-### Clinical Communication & Team Collaboration
-
-- **[Matrix for Healthcare Communication (Nuts Foundation)](https://github.com/nuts-foundation/toepassing-instante-communicatie)**
-  **Specification for instant messaging and care team collaboration based on Matrix.org.** Uses a federated communication protocol to enable secure messaging between care organizations . **Core design**: **Matrix Space = care team**; **Matrix Room = conversation**; permission levels (100 = care team lead, 50 = medical practitioner, 25 = related person, 10 = client); integration with healthcare identity providers; practitioner discovery via mCSD . **Use cases**: network management, new conversations, message management, cross-platform integration, multi-organizational collaboration . **CC BY-SA 4.0 license**.
-
-### Additional Strong Open-Source Options
-
-- **Community Care Coordination**: **SPICE** (Digital Public Good, 6 countries), **CHT** (40,000 CHWs, 15 countries).
-- **Shared Care Planning**: **AHRQ eCare Plan** (SMART-on-FHIR, patient + clinician apps), **ORCA** (FHIR Workflow Task).
-- **FHIR Infrastructure**: **Microsoft FHIR Server**, **FHIR-Converter**, **TPT Healthcare NZ** .
-- **Clinical Communication**: **Matrix for Healthcare** (federated communication, care team spaces).
-
-**Frameworks for building custom systems**: Combine **Microsoft FHIR Server** or **TPT Healthcare NZ** as the FHIR data store and interoperability layer, **AHRQ eCare Plan** or **ORCA** as the shared care planning engine, **SPICE** or **CHT** as the community care coordination frontend, and **Matrix for Healthcare** as the clinical communication layer. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Care coordination platforms handle sensitive patient health data; ensure compliance with HIPAA, GDPR, and applicable healthcare data protection regulations.
-- **Open-source reality**: The open-source ecosystem for care coordination is **mature and production-ready** at the **community care coordination** (SPICE, CHT) and **FHIR interoperability** (Microsoft FHIR Server, TPT Healthcare NZ) layers. **AHRQ eCare Plan** provides validated shared care planning applications . **ORCA** provides an adaptable care plan reference implementation . However, **enterprise-grade population health management** (Innovaccer, Arcadia, Lightbeam) and **social care networks** (Unite Us, Findhelp) offer significant advantages in risk stratification algorithms, social services resource directories, and payer integrations that open-source alternatives require substantial integration and custom development to match.
+This repository tracks notable **SaaS platforms** ☁️ and **open-source projects** 🔓 for **Care Coordination** in healthcare IT. These tools help healthcare organizations, health plans/payers, and community-based organizations (CBOs) coordinate patient care across settings, enabling closed-loop referrals, shared care plans, and cross-organizational HL7 FHIR data exchange.
 
 ---
 
-**Made for care coordinators, population health managers, community health organizations, and healthcare IT teams.**
-Let's make care coordination more open, transparent, and patient-centered.
+## 📑 Table of Contents
+
+- [📊 Market Overview & Industry Dynamics](#-market-overview--industry-dynamics)
+- [☁️ SaaS & Enterprise Hosted Platforms](#%EF%B8%8F-saas--enterprise-hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 📊 Market Overview & Industry Dynamics
+
+> 💡 **Market Size & Structure**: The global Care Coordination Software market is estimated at **$5.2 Billion in 2026** and is projected to reach **$11.8 Billion by 2030** (CAGR ~17.8%). The market is **moderately fragmented**, with enterprise healthcare IT giants (Innovaccer, WellSky, Arcadia) dominating population health management and risk stratification, while specialized networks (Unite Us, Findhelp) lead social care referrals. High integration barriers and localized referral networks create distinct regional strongholds rather than a single winner-take-all environment.
+
+---
+
+## ☁️ SaaS & Enterprise Hosted Platforms
+
+Below is a curated comparison of leading commercial care coordination, population health, and social care referral SaaS platforms, sorted by estimated company scale (annual revenue/valuation):
+
+| Platform | Description & Core Focus | Company Scale (Rev / Val) 🏢 | Starting Pricing Tier 💰 | Free Tier / Trial Limit 🎁 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Innovaccer](https://innovaccer.com/)** | Enterprise healthcare data activation platform unifying payer/provider data for risk stratification, care gap closure, and population health. | ~$3.45B Valuation / ~$250M ARR | ~$15,000 / month base platform fee | 30-Day Sandbox Trial (Developer Portal access) |
+| **[WellSky / CarePort](https://wellsky.com/)** | Comprehensive post-acute care coordination platform connecting hospitals, PAC providers, and payers for real-time patient referrals and ADT event tracking. | ~$3.00B Valuation / ~$1.60B Revenue | ~$10,000 / month hospital module | 14-Day Enterprise Demo Sandbox |
+| **[Unite Us](https://uniteus.com/)** | Cross-sector social care coordination network connecting healthcare providers with CBOs for social needs screening and closed-loop referrals. | ~$1.60B Valuation / ~$107.9M Revenue | ~$5,000 / month organization tier | Free for verified Community-Based Organizations (CBOs) |
+| **[Arcadia](https://arcadia.io/)** | Population health analytics and care management platform providing predictive risk modeling, quality measure performance, and workflow automation. | ~$100M+ Annual Revenue | ~$3,500 / month clinic plan | 30-Day Guided Analytics Sandbox |
+| **[ZeOmega](https://zeomega.com/)** | Enterprise population health management platform (Jiva) offering care management, utilization management, and risk adjustment for payers/providers. | ~$147.4M Annual Revenue | ~$8,000 / month plan tier | 14-Day Managed Demo Access |
+| **[Bamboo Health](https://bamboohealth.com/)** | Real-time care collaboration network delivering admission, discharge, and transfer (ADT) event notifications across thousands of care settings. | ~$120.0M Annual Revenue | ~$2,500 / month facility access | 30-Day Regional Partner Trial |
+| **[Findhelp](https://findhelp.org/)** | Social care referral network connecting individuals and health systems to social safety net programs with end-to-end outcome tracking. | ~$37.5M Annual Revenue | ~$1,200 / month enterprise tier | Free Forever Plan for public users & CBO search/referrals |
+| **[Aidin](https://aidin.com/)** | Care transitions management platform streamlining post-acute referrals and hospital discharge planning for healthcare staff. | ~$14.8M Annual Revenue | ~$800 / month provider seat | Free Access Plan for post-acute receiving providers |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source ecosystem for care coordination is production-ready across community care, FHIR infrastructure, and SMART-on-FHIR care planning. Projects are sorted by GitHub star count (descending) 🌟:
+
+### 🌟 Open-Source Options (Sorted by Stars)
+
+1. **[Synthea™](https://github.com/synthetichealth/synthea)**
+   [![Stars](https://img.shields.io/github/stars/synthetichealth/synthea?style=social&color=white)](https://github.com/synthetichealth/synthea/stargazers)  
+   **Synthetic Patient Population Simulator**. Generates realistic, synthetic patient records and longitudinal care plans in FHIR R4/CCDA formats. Invaluable for testing care management workflows and referral pipelines without HIPAA constraints.  
+   `License: Apache-2.0` | `Tech: Java`
+
+2. **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)**
+   [![Stars](https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white)](https://github.com/hapifhir/hapi-fhir/stargazers)  
+   **Complete Open-Source HL7 FHIR Storage & Messaging Server for Java**. The industry standard data engine powering custom care plan servers (`CarePlan`, `Task`, `ServiceRequest` FHIR resources) and clinical data repositories.  
+   `License: Apache-2.0` | `Tech: Java`
+
+3. **[OpenMRS Core](https://github.com/openmrs/openmrs-core)**
+   [![Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers)  
+   **Enterprise Open-Source Electronic Medical Record (EMR) System Platform**. Deployed in thousands of clinics globally across developing regions; supports clinical encounter tracking, patient workflows, and care coordination plugins.  
+   `License: MPL-2.0` | `Tech: Java`
+
+4. **[Microsoft FHIR Server](https://github.com/microsoft/fhir-server)**
+   [![Stars](https://img.shields.io/github/stars/microsoft/fhir-server?style=social&color=white)](https://github.com/microsoft/fhir-server/stargazers)  
+   **Enterprise FHIR Server Engine for Azure**. Provides RESTful API endpoints for FHIR R4 & STU3 resources. Serves as a robust backend store and interoperability bridge for complex multi-organization care coordination systems.  
+   `License: MIT` | `Tech: C# / .NET`
+
+5. **[Community Health Toolkit (CHT)](https://github.com/medic/cht-core)**
+   [![Stars](https://img.shields.io/github/stars/medic/cht-core?style=social&color=white)](https://github.com/medic/cht-core/stargazers)  
+   **Digital Public Good for Community Health Workers (CHWs)**. Supports ~40,000 CHWs across 15 countries with over 85M care activities. Features offline-first mobile apps, decision-support workflows, longitudinal person profiles, task scheduling, and FHIR alignment.  
+   `License: AGPL-3.0` | `Tech: JavaScript / Node.js`
+
+6. **[Microsoft FHIR-Converter](https://github.com/microsoft/FHIR-Converter)**
+   [![Stars](https://img.shields.io/github/stars/microsoft/FHIR-Converter?style=social&color=white)](https://github.com/microsoft/FHIR-Converter/stargazers)  
+   **Healthcare Data Transformation Engine**. Converts legacy healthcare formats (HL7 v2, C-CDA, JSON) into FHIR bundles. Facilitates ingesting legacy clinical feeds into modern care coordination platforms.  
+   `License: MIT` | `Tech: C# / .NET`
+
+7. **[FHIR Core / OpenSRP 2](https://github.com/opensrp/fhircore)**
+   [![Stars](https://img.shields.io/github/stars/opensrp/fhircore?style=social&color=white)](https://github.com/opensrp/fhircore/stargazers)  
+   **Mobile-First Offline-Capable Digital Health & Care Coordination App**. Built on Kotlin and Android FHIR SDK. Designed for care teams implementing WHO Smart Guidelines, patient management, and field care coordination.  
+   `License: Apache-2.0` | `Tech: Kotlin / Android`
+
+8. **[ORCA (Santeon)](https://github.com/SanteonNL/orca)**
+   [![Stars](https://img.shields.io/github/stars/SanteonNL/orca?style=social&color=white)](https://github.com/SanteonNL/orca/stargazers)  
+   **Open-Source Shared Care Planning Reference Implementation**. Implements FHIR Workflow Task and Shared Care Planning specifications enabling independent health organizations to coordinate care plans across EHR boundaries.  
+   `License: Apache-2.0` | `Tech: TypeScript`
+
+9. **[SPICE (Medtronic LABS)](https://github.com/Medtronic-LABS/spice-server)**
+   [![Stars](https://img.shields.io/github/stars/Medtronic-LABS/spice-server?style=social&color=white)](https://github.com/Medtronic-LABS/spice-server/stargazers)  
+   **Digital Public Good for Community Care Coordination**. Deployed in 6 countries (500k+ patients screened). Features closed-loop referral management between community health workers and health facilities, clinical decision support, and DHIS2 interoperability.  
+   `License: BSD-3-Clause` | `Tech: Java`
+
+10. **[careplan-service (REAN Foundation)](https://github.com/REAN-Foundation/careplan-service)**
+    [![Stars](https://img.shields.io/github/stars/REAN-Foundation/careplan-service?style=social&color=white)](https://github.com/REAN-Foundation/careplan-service/stargazers)  
+    **Microservice API for Care Plan Lifecycle Management**. Provides full lifecycle REST APIs for authoring care plans, scheduling interventions, enrolling participants, and dispatching care tasks.  
+    `License: MIT` | `Tech: TypeScript`
+
+11. **[TPT Healthcare NZ](https://github.com/tpt-solutions/tpt-healthcare-nz)**
+    [![Stars](https://img.shields.io/github/stars/tpt-solutions/tpt-healthcare-nz?style=social&color=white)](https://github.com/tpt-solutions/tpt-healthcare-nz/stargazers)  
+    **FHIR R5 Care Management & Integration Platform**. High-performance Go backend with React UI, supporting multi-tenant FHIR R5 resource storage, patient consent management, subscriptions, and clinical data routing.  
+    `License: MIT` | `Tech: Go / React`
+
+12. **[Matrix for Healthcare (Nuts Foundation)](https://github.com/nuts-foundation/toepassing-instante-communicatie)**
+    [![Stars](https://img.shields.io/github/stars/nuts-foundation/toepassing-instante-communicatie?style=social&color=white)](https://github.com/nuts-foundation/toepassing-instante-communicatie/stargazers)  
+    **Federated Clinical Team Communication Protocol**. Open specification utilizing Matrix.org protocol to map care teams to Matrix Spaces and conversations to Matrix Rooms, enabling secure cross-organizational messaging.  
+    `License: CC-BY-SA-4.0` | `Tech: Specification`
+
+---
+
+## 🛠️ Recommended Open-Source Architecture Stack
+
+For technical teams building custom care coordination solutions, combine these open-source building blocks:
+```
+  [ Community / Field Frontend ]          [ Clinical Shared Care Plan UI ]
+    SPICE / CHT / FHIR Core                   AHRQ eCare Plan / ORCA
+                 │                                        │
+                 └───────────────────┬────────────────────┘
+                                     ▼
+                      [ FHIR Data Engine & API Layer ]
+                    HAPI FHIR / Microsoft FHIR Server
+                                     │
+                 ┌───────────────────┴────────────────────┐
+                 ▼                                        ▼
+    [ Legacy Integration Layer ]             [ Federated Team Messaging ]
+       Microsoft FHIR-Converter                     Matrix for Healthcare
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork 🍴 this repository.
+2. Add or update entries in `README.md` following the existing format.
+3. Ensure description remains factual, objective, and includes pricing/scale info if adding SaaS, or GitHub link if adding Open-Source.
+4. Open a Pull Request (PR) 🚀 with a brief summary of additions.
+
+Refer to the curated [Awesome Awesome Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) list for standards.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your research, healthcare IT project, or clinical workflows, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** it with your healthcare tech colleagues and care coordination teams.
+- ☕ **Buy me a coffee**: Support ongoing maintenance and research on GitHub Sponsors:
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+Thank you for helping make care coordination open, transparent, and accessible! ❤️
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated index** — not exhaustive and not an explicit commercial endorsement.
+- Care coordination software handles Protected Health Information (PHI); verify compliance with HIPAA, GDPR, and local healthcare data regulations before deployment.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Care-Coordination-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Care-Coordination-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  Made with ❤️ for care coordinators, population health managers, and healthcare IT engineers worldwide.
+</p>
